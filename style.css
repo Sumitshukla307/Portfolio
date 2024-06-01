@@ -87,11 +87,13 @@ section {
     padding: 10rem 9% 2rem;
 }
 
+
 .home {                                                        
     display: flex;
     align-items: center;
     padding: 0 9%;
     background: url(./tkh.jpg) no-repeat;
+    /* background: transparent; */
     background-size: cover;
     background-position: center;
 
@@ -330,6 +332,7 @@ span {
 
 .about-content {
     text-align: center;
+    font-size: 2rem;
 }
 
 .about-content h3 {
@@ -456,6 +459,7 @@ span {
     background: var(--bg-color);
 }
 
+
 .skills h2{
     display: inline-block;
     left: 50%;
@@ -540,35 +544,35 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 80%;
+    width: 85%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 60%;
+    width: 80%;
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
-    width: 20%;
+    width: 70%;
 }
 
-/* .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 90%;
+.skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+    width: 50%;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
+/*.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
     width: 90%;
 } */
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 70%;
+    width: 80%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 60%;
+    width: 70%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 45%;
+    width: 64%;
 }
 
 .contact {                                                                          /*contact section design               */
@@ -651,8 +655,6 @@ span {
 .contact form .textarea-field {
     resize: none;
 }
-
-
 
 footer {                                                                                    /* footer section design */
     display: flex;
@@ -823,7 +825,7 @@ html {
 
 @media (max-width: 462px) {
     .home{
-         background: var(--second-bg-color);
+        background: var(--second-bg-color);git
     }
     .home-content h1 {
         font-size: 5.2rem;
@@ -850,7 +852,7 @@ html {
 @media (max-width: 371px) {
     .home {
         justify-content: center;
-         background: var(--second-bg-color);
+        background: var(--second-bg-color);
     }
 
     .home-content {
@@ -911,12 +913,3 @@ html {
         width: 0;
     }
 }
-input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;  
-    }
-
-    input[type=number] {    
-        -moz-appearance: textfield;
-   }
