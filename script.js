@@ -42,3 +42,7 @@ window.onscroll = () => {
     //  animation footer on scroll
    
 }
+let btn = document.getElementById('sub');
+btn.addEventListener('click', ()=>{
+    alert('Due to some technical problem, your message cannot be sent.');
+})
